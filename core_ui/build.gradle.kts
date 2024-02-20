@@ -3,7 +3,9 @@ plugins {
     `kotlin-android`
 }
 
-apply(from = "$rootDir/base-module.gradle")
+apply {
+    from("$rootDir/compose-module.gradle")
+}
 
 android {
     namespace = "com.example.core_ui"
