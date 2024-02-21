@@ -8,5 +8,6 @@ apply {
 }
 
 android {
+    // contains ui elements that are shared across other modules
     namespace = "com.example.core_ui"
 }
