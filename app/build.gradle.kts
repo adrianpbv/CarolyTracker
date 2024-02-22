@@ -106,3 +106,7 @@ dependencies {
     kaptAndroidTest(DaggerHilt.hiltCompiler)
     androidTestImplementation(Testing.testRunner)
 }
+
+kapt {
+    correctErrorTypes = true
+}

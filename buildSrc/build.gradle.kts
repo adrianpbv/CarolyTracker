@@ -15,6 +15,9 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.20")
     // Tools-Gradle version
     implementation("com.android.tools.build:gradle:8.1.1")
+
+    // Required to fix a missing dependency error for Hilt
+    implementation("com.squareup:javapoet:1.13.0")
 }
 
 
