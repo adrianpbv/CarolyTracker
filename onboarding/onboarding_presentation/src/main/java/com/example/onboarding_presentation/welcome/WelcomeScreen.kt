@@ -15,7 +15,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import com.example.core.UiEvent
 import com.example.core_ui.LocalSpacing
-import com.example.core_ui.R
+import com.example.core.R
+import com.example.core.navigation.Route
 import com.example.onboarding_presentation.components.ActionButton
 
 @Composable
@@ -34,10 +35,12 @@ fun WelcomeScreen(
             textAlign = TextAlign.Center,
             style = MaterialTheme.typography.h1
         )
+
         Spacer(modifier = Modifier.height(LocalSpacing.current.spaceMedium))
+
         ActionButton(
             text = stringResource(id = R.string.next),
-            onClick = { /*TODO*/ },
+            onClick = { onNavigate(UiEvent.Navigate(Route.GENDER)) },
             modifier = Modifier.align(Alignment.CenterHorizontally)
         )
     }
