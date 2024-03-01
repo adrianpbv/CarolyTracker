@@ -13,7 +13,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
-import com.example.core.UiEvent
+import com.example.core.utils.UiEvent
 import com.example.core_ui.LocalSpacing
 import com.example.core.R
 import com.example.core.navigation.Route

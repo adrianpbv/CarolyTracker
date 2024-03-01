@@ -5,7 +5,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.core.UiEvent
+import com.example.core.utils.UiEvent
 import com.example.core.domain.model.Gender
 import com.example.core.domain.preferences.Preferences
 import com.example.core.navigation.Route

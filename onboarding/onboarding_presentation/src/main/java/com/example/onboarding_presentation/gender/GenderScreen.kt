@@ -11,7 +11,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.example.core.UiEvent
+import com.example.core.utils.UiEvent
 import com.example.core_ui.LocalSpacing
 import com.example.core.R
 import com.example.core.domain.model.Gender
