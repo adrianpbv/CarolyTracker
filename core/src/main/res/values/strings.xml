@@ -8,10 +8,18 @@
     <string name="whats_your_age">What\'s your age?</string>
     <string name="whats_your_height">What\'s your height?</string>
     <string name="whats_your_weight">What\'s your weight?</string>
+    <string name="whats_your_activity_level">What\'s your activity level?</string>
     <string name="error_age_cant_be_empty">The age can\'t be empty</string>
     <string name="error_height_cant_be_empty">The height can\'t be empty</string>
     <string name="error_weight_cant_be_empty">The weight can\'t be empty</string>
     <string name="years">years</string>
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
     <string name="kg">kg</string>
     <string name="cm">cm</string>
+    <string name="low">Low</string>
+    <string name="gain">Gain</string>
+    <string name="keep">Keep</string>
+    <string name="lose">Lose</string>
+    <string name="lose_keep_or_gain_weight">Do you want to lose, keep or gain weight?</string>
 </resources>
