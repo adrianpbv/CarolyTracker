@@ -15,6 +15,11 @@
     <string name="error_weight_cant_be_empty">The weight can\'t be empty</string>
     <string name="error_invalid_values">These are not valid values</string>
     <string name="error_not_100_percent">The values must add up to 100%</string>
+    <string name="kcal">kcal</string>
+    <string name="carbs">Carbs</string>
+    <string name="protein">Protein</string>
+    <string name="fat">Fat</string>
+    <string name="grams">g</string>
     <string name="years">years</string>
     <string name="high">High</string>
     <string name="medium">Medium</string>
@@ -32,4 +37,5 @@
     <string name="lunch">Lunch</string>
     <string name="dinner">Dinner</string>
     <string name="snacks">Snacks</string>
+    <string name="your_goal">Your goal:</string>
 </resources>
