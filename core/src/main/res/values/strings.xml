@@ -38,4 +38,9 @@
     <string name="dinner">Dinner</string>
     <string name="snacks">Snacks</string>
     <string name="your_goal">Your goal:</string>
+    <string name="previous_day">Previous day</string>
+    <string name="next_day">Next day</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="today">Today</string>
 </resources>
