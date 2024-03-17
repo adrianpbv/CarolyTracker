@@ -44,6 +44,9 @@
     <string name="tomorrow">Tomorrow</string>
     <string name="today">Today</string>
     <string name="add">Add</string>
+    <string name="add_meal">Add %s</string>
     <string name="extend">Extend</string>
     <string name="collapse">Collapse</string>
+    <string name="delete">Delete</string>
+    <string name="nutrient_info">%dg • %dkcal</string>
 </resources>
