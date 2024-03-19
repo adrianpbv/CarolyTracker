@@ -51,4 +51,7 @@
     <string name="nutrient_info">%dg • %dkcal</string>
     <string name="error_something_went_wrong">Oops, something went wrong!</string>
     <string name="search">Search</string>
+    <string name="track">Track</string>
+    <string name="kcal_per_100g">%dkcal / 100g</string>
+    <string name="no_results">No results</string>
 </resources>
