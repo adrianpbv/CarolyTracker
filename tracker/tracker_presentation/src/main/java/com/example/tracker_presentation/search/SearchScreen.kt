@@ -23,6 +23,7 @@ import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.hilt.navigation.compose.hiltViewModel
+import coil.annotation.ExperimentalCoilApi
 import com.example.core.R
 import com.example.core.utils.UiEvent
 import com.example.core_ui.LocalSpacing
@@ -32,6 +33,7 @@ import com.example.tracker_presentation.search.components.TrackableFoodItem
 import java.time.LocalDate
 
 @ExperimentalComposeUiApi
+@ExperimentalCoilApi
 @Composable
 fun SearchScreen(
     scaffoldState: ScaffoldState,
@@ -76,7 +78,7 @@ fun SearchScreen(
         Spacer(modifier = Modifier.height(spacing.spaceMedium))
         SearchTextField(
             text = state.query,
-            shouldShowHint = viewModel.state.isHintVisible,
+            shouldShowHint = state.isHintVisible,
             onValueChange = {
                 viewModel.onEvent(SearchEvent.OnQueryChange(it))
             },
