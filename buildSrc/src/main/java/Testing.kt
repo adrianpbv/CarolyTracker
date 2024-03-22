@@ -15,6 +15,9 @@ object Testing {
     const val mockk = "io.mockk:mockk:$mockkVersion"
     const val mockkAndroid = "io.mockk:mockk-android:$mockkVersion"
 
+    private const val byteBuddyVersion = "1.14.12"
+    const val byteBuddy = "net.bytebuddy:byte-buddy:$byteBuddyVersion"
+
     private const val turbineVersion = "0.7.0"
     const val turbine = "app.cash.turbine:turbine:$turbineVersion"
 
