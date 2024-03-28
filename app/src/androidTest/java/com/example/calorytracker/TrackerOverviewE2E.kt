@@ -1,4 +1,4 @@
-package com.example.carolytracker
+package com.example.calorytracker
 
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -25,13 +25,9 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import coil.annotation.ExperimentalCoilApi
-import com.example.carolytracker.navigation.Route
-import com.example.carolytracker.repository.TrackerRepositoryFake
-import com.example.carolytracker.ui.theme.CaloryTrackerTheme
-import com.example.core.domain.model.ActivityLevel
-import com.example.core.domain.model.Gender
-import com.example.core.domain.model.GoalType
-import com.example.core.domain.model.UserInfo
+import com.example.calorytracker.navigation.Route
+import com.example.calorytracker.repository.TrackerRepositoryFake
+import com.example.calorytracker.ui.theme.CaloryTrackerTheme
 import com.example.core.domain.preferences.Preferences
 import com.example.core.domain.use_case.FilterOutDigits
 import com.example.tracker_domain.model.TrackableFood
@@ -44,8 +40,6 @@ import com.google.common.truth.Truth.assertThat
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import io.mockk.InternalPlatformDsl.toStr
-import io.mockk.every
-import io.mockk.mockk
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test

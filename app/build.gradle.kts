@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.carolytracker"
+    namespace = "com.example.calorytracker"
     compileSdk = ProjectConfig.compileSdk
 
     defaultConfig {
@@ -18,7 +18,7 @@ android {
         versionCode = ProjectConfig.versionCode
         versionName = ProjectConfig.versionName
 
-        testInstrumentationRunner = "com.example.carolytracker.HiltTestRunner"
+        testInstrumentationRunner = "com.example.calorytracker.HiltTestRunner"
         // "androidx.test.runner.AndroidJUnitRunner"
 
         vectorDrawables {

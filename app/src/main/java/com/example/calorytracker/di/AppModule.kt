@@ -1,4 +1,4 @@
-package com.example.carolytracker.di
+package com.example.calorytracker.di
 
 import android.app.Application
 import android.content.Context.MODE_PRIVATE

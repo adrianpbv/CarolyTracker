@@ -13,7 +13,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CarolyTracker"
+rootProject.name = "CaloryTracker"
 include(":app")
 include(":core")
 include(":onboarding")

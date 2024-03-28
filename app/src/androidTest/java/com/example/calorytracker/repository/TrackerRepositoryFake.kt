@@ -1,4 +1,4 @@
-package com.example.carolytracker.repository
+package com.example.calorytracker.repository
 
 import com.example.tracker_domain.model.TrackableFood
 import com.example.tracker_domain.model.TrackedFood

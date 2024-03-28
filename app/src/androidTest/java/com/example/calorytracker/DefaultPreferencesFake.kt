@@ -1,4 +1,4 @@
-package com.example.carolytracker
+package com.example.calorytracker
 
 import com.example.core.domain.model.ActivityLevel
 import com.example.core.domain.model.Gender

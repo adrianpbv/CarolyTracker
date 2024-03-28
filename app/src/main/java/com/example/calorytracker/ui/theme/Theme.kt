@@ -1,4 +1,4 @@
-package com.example.carolytracker.ui.theme
+package com.example.calorytracker.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

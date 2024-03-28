@@ -1,4 +1,4 @@
-package com.example.carolytracker
+package com.example.calorytracker
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -14,9 +14,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.carolytracker.ui.theme.CaloryTrackerTheme
+import com.example.calorytracker.ui.theme.CaloryTrackerTheme
 import com.example.core.domain.preferences.Preferences
-import com.example.carolytracker.navigation.Route
+import com.example.calorytracker.navigation.Route
 import com.example.onboarding_presentation.activity.ActivityScreen
 import com.example.onboarding_presentation.gender.GenderScreen
 import com.example.onboarding_presentation.welcome.WelcomeScreen

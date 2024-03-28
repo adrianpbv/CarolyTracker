@@ -1,4 +1,4 @@
-package com.example.carolytracker
+package com.example.calorytracker
 
 import android.app.Application
 import android.content.Context
