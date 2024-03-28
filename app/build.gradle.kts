@@ -1,3 +1,5 @@
+import com.android.build.api.dsl.Packaging
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -16,7 +18,9 @@ android {
         versionCode = ProjectConfig.versionCode
         versionName = ProjectConfig.versionName
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "com.example.carolytracker.HiltTestRunner"
+        // "androidx.test.runner.AndroidJUnitRunner"
+
         vectorDrawables {
             useSupportLibrary = true
         }
@@ -41,8 +45,13 @@ android {
         kotlinCompilerExtensionVersion = Compose.composeCompilerVersion
     }
     packaging {
+//        resources.excludes.addAll(
+//            "/META-INF/{AL2.0,LGPL2.1}", "META-INF/LICENSE.md"
+//        )
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            excludes += "META-INF/LICENSE.md"
+            excludes += "META-INF/LICENSE-notice.md"
         }
     }
 }

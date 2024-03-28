@@ -39,12 +39,12 @@ fun TrackedFoodItem(
         modifier = modifier
             .clip(RoundedCornerShape(5.dp))
             .padding(all = spacing.spaceExtraSmall)
-            .padding(end = spacing.spaceMedium)
             .shadow(
                 elevation = 1.dp,
                 shape = RoundedCornerShape(5.dp)
             )
             .background(MaterialTheme.colors.surface)
+            .padding(end = spacing.spaceMedium)
             .height(100.dp),
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically

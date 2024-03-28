@@ -43,7 +43,6 @@ dependencies {
     testImplementation Testing.turbine
     testImplementation Testing.composeUiTest
     testImplementation Testing.mockk
-    testImplementation Testing.byteBuddy
     testImplementation Testing.mockWebServer
 
     androidTestImplementation Testing.junit4
